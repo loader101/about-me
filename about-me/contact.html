@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Jay Mike Gamao</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jay Mike Gamao</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Me</h2>
+
+            <address>
+                Email:
+                <a href="mailto:jaymikegamao123x@email.com">
+                    jaymikegamao123x@email.com
+                </a>
+            </address>
+            <form action="#" method="POST">
+                <fieldset>
+
+                    <legend>Contact Me</legend>
+
+                    <p>
+                        <label for="name">Full Name</label><br>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            minlength="2">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone (Optional)</label><br>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            pattern="[0-9\-\s]{7,}">
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label><br>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Jay Mike Gamao</p>
+    </footer>
+
+</body>
+</html>
